@@ -1,0 +1,160 @@
+.table {
+  min-width: max-content !important;
+  text-align: center;
+  border-collapse: separate;
+}
+
+.table,
+.table-responsive {
+  max-width: 95.5vw;
+  margin: auto;
+  max-height: 32rem !important;
+}
+
+.t-row :first-child {
+  /* background-color: white; */
+  min-width: 1rem !important;
+  max-width: fit-content !important;
+  /* over */
+}
+
+.t-row :nth-child(2) {
+  background-color: white;
+
+}
+
+.t-row :nth-child(3) {
+  background-color: white;
+
+}
+
+.d-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95.5vw;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.d-flex-row-child :last-child {
+  margin-top: 5px;
+
+}
+
+.input-group-text {
+  height: fit-content;
+  margin-top: 5px !important;
+
+}
+
+.input>div>div {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.table-responsive {
+  width: 100% !important;
+}
+
+.table-icons {
+  border: 1px solid rgba(0, 0, 0, 0.573);
+  border-radius: 6px !important;
+  background-color: #fff;
+}
+
+.table-icons:hover {
+  background-color: #6c62fd9c;
+
+}
+
+.table-header {
+  background-color: #e5e8e9 !important;
+  border: 1px solid rgba(0, 0, 0, 0.121);
+}
+
+.table-col {
+  border: 1px solid rgba(0, 0, 0, 0.132);
+}
+
+.saveicon {
+  color: #775aec;
+}
+
+.button-container {
+  max-width: 95.5vw;
+  margin: auto;
+  border-radius: 5px;
+  height: 2.5rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.mainTable {
+  max-width: 98.7vw;
+  margin: auto;
+}
+
+.sticky-top {
+  z-index: 1 !important;
+}
+
+th.body-head:first-child {
+  width: 12px;
+}
+
+.button-container-section-1 {
+  margin-right: 50px;
+}
+
+@media (max-width: 500px) {
+  .d-flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.body-head {
+  /* z-index: 0!important; */
+  border: 1px solid rgba(0, 0, 0, 0.200);
+  background-color: #ededed !important;
+  min-width: 150px !important;
+  border-collapse: separate;
+
+}
+
+.body-cell {
+  /* z-index: 0; */
+  border: 1px solid rgba(0, 0, 0, 0.200);
+  min-width: 150px !important;
+
+}
+
+
+.pagination {
+  display: grid;
+  place-content: center;
+  align-content: center;
+  padding: 1rem 0;
+  /* background-color: darkgray; */
+}
+
+.pages {
+  margin: 0 10px 0 10px;
+}
+
+.pagination-btn {
+  background-color: transparent;
+  border: 0;
+}
+
+.filter-section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
